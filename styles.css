@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh; 
+    margin: 0; 
+}
+.button-container {
+    display: flex;
+    gap: 40px;
+}
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px; 
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: transparent; 
+    border: 3px solid cyan; 
+    border-radius: 5px; 
+    font-size: 15px; 
+    box-shadow: 0 0 10px cyan, 0 0 35px cyan; 
+    transition: box-shadow 0.8s ease; 
+    cursor: pointer; 
+}
+button:hover {
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan; 
+}
